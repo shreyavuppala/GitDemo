@@ -10,6 +10,10 @@ public class Day2 {
     public void Demo2(){
         System.out.println("Bye");
     }
+    @Test(groups={"Smoke"})
+    public void Demo3(){
+        System.out.println("Bye Bye");
+    }
     @BeforeTest
     public void prerequiste(){
         System.out.println("I will execute first");

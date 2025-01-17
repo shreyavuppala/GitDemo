@@ -21,4 +21,8 @@ public class Day4 {
     public void LoginAPIHomeLoan(){
         System.out.println("API login home");
     }
+    @Test
+    public void LoginAPIHomeLoans(){
+        System.out.println("API logins home");
+    }
 }
